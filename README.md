@@ -1,3 +1,36 @@
+# :exclamation:Updated Readme:exclamation:
+The following is a quick guide on how to install, compile, run & navigate my application created for the frontend technical assessment.
+
+## Installation & Compilation 
+Download this github repository and run the following commands inside the downloaded folder.
+
+```
+yarn install
+yarn start
+```
+After running those commands application should load at `localhost:8080/#/` :tada:
+
+## Navigation :zap:
+
+### Activity Feed & Activity Details
+Activity details is the homepage of this app. Here you can see all the non-archived calls. You can click on the green icon on the right side to get more details about a specific call. 
+
+### How to archive an Activity
+In order to properly archive an activity, navigate to that activity's details page by pressing the information icon. Then locate and press the archive button.
+
+### How to reset all activities status
+In the navbar press the settings icon and the locate and press the "Reset all calls" button.
+
+## Features Implemented :whale2:
+1. Custom react hook that gets details about all activies or a specific one using axios :white_check_mark:
+2. Proper filtering and removing of archived calls :white_check_mark:
+3. Ability to archive a specific call :white_check_mark:
+4. Ability to reset the archived status for all calls :white_check_mark:
+5. Error handling for bad url's, bad requests and unsuccesful requests :white_check_mark:
+6. Providing user feedback based on success and failure of actions using Toastify :white_check_mark:
+7. Dynammic loading of components and their contents based on the provided data :white_check_mark:
+
+
 ## Summary
 
 The goal of this test is to make you code a small ReactJS app. We have prepared a skeleton app for you, but please change whatever you want (CSS files, HTML structure, JS structure...).
